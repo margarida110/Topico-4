@@ -9,7 +9,7 @@ def home():
     <div style="text-align: center; padding-top: 50px; font-family: sans-serif;">
         <h1>Activity Provider Literacia Financeira</h1>
         <h3>Margarida Oliveira</h3>
-        <p>O servidor está online e pronto para receber pedidos da Inven!RA.</p>
+        <p>O servidor está online e pronto</p>
     </div>
     """
 
@@ -143,3 +143,4 @@ def get_analytics_list():
 # Inicialização do servidor
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
+
